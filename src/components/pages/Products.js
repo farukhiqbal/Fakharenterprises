@@ -73,25 +73,33 @@ const Products = () => {
         <h2 className="text-3xl font-[600] justify-center flex gap-3 mb-8">
           <p className="text-red-600  ">All </p> Products
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {paginatedProducts.map((product) => (
-            <div
-              key={product.id}
-              className="item bg-white text-center p-[20px]   shadow-[#0000003c] shadow-lg mb-30"
-            >
-              <img src={product.image} alt="" className="bg-transparent" />
-              <h3 className="text-center my-3  font-bold ">{product.name}</h3>
-            </div>
-          ))}
-        </div>
-        <div className="flex justify-center mt-[5rem]">
-          <Pagination
-            count={Math.ceil(filteredProducts.length / productsPerPage)}
-            page={page}
-            onChange={handleChangePage}
-            color="primary"
-          />
-        </div>
+        {filteredProducts.length === 0 ? (
+          <p className="text-center font-bold text-2xl mt-[3rem]">
+            No products found.
+          </p>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {paginatedProducts.map((product) => (
+              <div
+                key={product.id}
+                className="item bg-white text-center p-[20px]   shadow-[#0000003c] shadow-lg mb-30"
+              >
+                <img src={product.image} alt="" className="bg-transparent" />
+                <h3 className="text-center my-3  font-bold ">{product.name}</h3>
+              </div>
+            ))}
+          </div>
+        )}
+        {filteredProducts.length > 0 && (
+          <div className="flex justify-center mt-[5rem]">
+            <Pagination
+              count={Math.ceil(filteredProducts.length / productsPerPage)}
+              page={page}
+              onChange={handleChangePage}
+              color="primary"
+            />
+          </div>
+        )}
       </div>
 
       {/* ===============================part 7  ===================================== */}

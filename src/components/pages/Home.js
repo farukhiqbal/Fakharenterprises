@@ -4,7 +4,16 @@ import Layout from "../Layout/Layout";
 import introimg from "../../images/intro.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Typography from "@mui/material/Typography";
+import Fire from "../../images/fire-extinguishers.jpg";
+import FireAlarm from "../../images/fire-alarm.jpg";
+import Firesystem from "../../images/fire-suppression.jpg";
+import FireFighting from "../../images/fire-fighting.jpg";
+import Emergency from "../../images/emergency-lighting.jpg";
+import Service1 from "../../images/service-1.png";
+import Service2 from "../../images/service-2.png";
+import Service3 from "../../images/service-3.png";
+import Service4 from "../../images/service-4.png";
+import ppe from "../../images/ppe.jpg";
 import MultiCarousel from "./MultiCarosel";
 
 const Home = () => {
@@ -17,38 +26,32 @@ const Home = () => {
   const products = [
     {
       name: "Fire Extinguishers",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-extinguishers.jpg",
+      image: Fire,
       link: "https://www.capitalsolutions.pk/product-category/fire-extinguishers/",
     },
     {
       name: "Fire Alarm/Detection Systems",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-alarm.jpg",
+      image: FireAlarm,
       link: "https://www.capitalsolutions.pk/product-category/fire-alarm-system/",
     },
     {
       name: "Fire Suppression Systems",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-suppression.jpg",
+      image: Firesystem,
       link: "https://www.capitalsolutions.pk/product-category/fire-suppression-system/",
     },
     {
       name: "Fire Fighting Systems",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-fighting.jpg",
+      image: FireFighting,
       link: "https://www.capitalsolutions.pk/product-category/fire-fighting-system/",
     },
     {
       name: "Emergency Lighting Systems",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/emergency-lighting.jpg",
+      image: Emergency,
       link: "https://www.capitalsolutions.pk/product-category/emergency-lighting/",
     },
     {
       name: "PPE",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/ppe.jpg",
+      image: ppe,
       link: "https://www.capitalsolutions.pk/product-category/ppe-safety-items/",
     },
   ];
@@ -57,26 +60,22 @@ const Home = () => {
   const services = [
     {
       title: "Fire Extinguishers",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-1.png",
+      image: Service1,
       link: "https://www.capitalsolutions.pk/fire-extinguishers",
     },
     {
       title: "Fire Suppression System",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-2.png",
+      image: Service2,
       link: "https://www.capitalsolutions.pk/fire-suppression-system",
     },
     {
       title: "Fire Fighting System",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-3.png",
+      image: Service3,
       link: "https://www.capitalsolutions.pk/fire-fighting-system",
     },
     {
       title: "Fire Alarm System",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-4.png",
+      image: Service4,
       link: "https://www.capitalsolutions.pk/fire-alarm-system",
     },
   ];
@@ -353,7 +352,7 @@ const Home = () => {
 
       {/* =======================================part 6 ============================================================ */}
 
-      <div className="section safety-partners  bg-gray-300 mt-[3rem]  mx-auto">
+      <div className="section safety-partners h-[30vh] bg-gray-100 mt-[3rem]  mx-auto">
         <div className="container  w-[80vw] mx-auto  ">
           <h2 className="text-center text-4xl mb-5   font-bold  py-5">
             <span className="text-red-600">Our</span> Clients
@@ -367,11 +366,11 @@ const Home = () => {
         </div>
       </div>
 
-      <MultiCarousel />
+      <MultiCarousel  className='pb-5' />
 
       {/* ===============================part 7  ===================================== */}
       <div
-        className="call-to-action  mt-[12rem]"
+        className="call-to-action  pt-[9rem]   md:pt-0 lg:pt-0"
         style={{
           background:
             "linear-gradient(180deg, rgba(255, 31, 42, 1) 0%, rgba(128, 16, 21, 1) 100%)",
