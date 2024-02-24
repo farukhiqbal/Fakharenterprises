@@ -55,12 +55,12 @@ const Contactus = () => {
                   <li className="phone flex   py-2 ">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2 text-[#dc1b24]" />
 
-                    <a href="tel:+92-51-4446640">+92304-7083322</a>
+                    <a href="tel:+92-51-4446640">+92 304-7083322</a>
                   </li>
                   <li className="phone flex   py-2">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2  text-[#dc1b24]" />
 
-                    <a href="tel:+92-51-8312551">+92304-7083322</a>
+                    <a href="tel:+92-51-8312551">+92 304-7083322</a>
                   </li>
                   <li className="email  flex  py-2">
                     <MdEmail className="mt-[.2rem]  mr-2  text-[#dc1b24]" />
@@ -221,7 +221,7 @@ const Contactus = () => {
                   href="tel:0304 7083322"
                   className="     text-[40px]     md:text-[75px] lg:text-[75px]  leading-11"
                 >
-                  92304 7083322
+                  +92 304 7083322
                 </a>
               </div>
             </div>

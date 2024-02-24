@@ -58,7 +58,7 @@ const Footer = () => {
                   </li>
                   <li className="phone font-bold flex  py-2">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2 " />
-                    Phone: <Link to="tel:+92-51-4446640">+92304 7083322</Link>
+                    Phone: <Link to="tel:+92-51-4446640">+92 304 7083322</Link>
                   </li>
 
                   {/* <li className="fax">Fax: +92-51-4446641</li> */}

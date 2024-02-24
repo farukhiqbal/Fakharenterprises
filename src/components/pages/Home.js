@@ -397,7 +397,7 @@ const Home = () => {
                   href="tel:0304 7083322"
                   className="     text-[40px]     md:text-[75px] lg:text-[75px]  leading-11"
                 >
-                  92304 7083322
+                  +92 304 7083322
                 </a>
               </div>
             </div>
