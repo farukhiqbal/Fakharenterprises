@@ -51,11 +51,11 @@ const Products = () => {
 
       {/* Search input */}
       <div className="container mx-auto mt-[9rem]  w-[80vw]">
-        <div className=" w-[80vw] text-center mx-auto  mb-[3rem] py-5 flex  items-center">
+        <div className=" w-[80vw] text-center mx-auto  mb-[3rem] py-5 flex  flex-col   md:flex-row lg:flex-row items-center">
           <h2 className=" font-bold w-[40vw]  text-left text-[2rem]">
             Find Products{" "}
           </h2>
-          <div className="  w-[40vw]  flex">
+          <div className="   w-full  mt-2 md:mt-0 lg:mt-0  md:w-[40vw]  lg:w-[40vw] flex">
             <input
               type="search"
               placeholder="find the products"
@@ -80,9 +80,7 @@ const Products = () => {
               className="item bg-white text-center p-[20px]   shadow-[#0000003c] shadow-lg mb-30"
             >
               <img src={product.image} alt="" className="bg-transparent" />
-              <h3 className="text-center my-3  font-bold ">
-                {product.name}
-              </h3>
+              <h3 className="text-center my-3  font-bold ">{product.name}</h3>
             </div>
           ))}
         </div>
