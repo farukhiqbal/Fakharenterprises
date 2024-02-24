@@ -135,7 +135,7 @@ const Home = () => {
         <div className="absolute inset-0 flex   flex-col          lg:flex-row  md:flex-row items-center justify-center">
           {/* Left Column */}
           <div className="lg:w-1/2 lg:pr-8 px-5 text-center">
-            <div className="bg-[#00000054] bg-black  px-5  py-5 ">
+            <div className="bg-[#00000054]  px-5  py-5 ">
               <h2 className="text-3xl lg:text-5xl text-[#ffffff] font-bold leading-tight mb-4">
                 FIRE FIGHTING SYSTEMS
               </h2>
