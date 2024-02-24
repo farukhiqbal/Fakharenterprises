@@ -52,18 +52,7 @@ const imageData = [
     id: 6,
     img: client7,
   },
-  {
-    id: 7,
-    img: `https://alphaenterprises.com.pk/assets/img/clients/1.png`,
-  },
-  {
-    id: 8,
-    img: `https://alphaenterprises.com.pk/assets/img/clients/2.png`,
-  },
-  {
-    id: 9,
-    img: `https://alphaenterprises.com.pk/assets/img/clients/3.png`,
-  },
+
 ];
 
 const MultiCarousel = ({ deviceType }) => {
