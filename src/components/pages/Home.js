@@ -15,6 +15,7 @@ import Service3 from "../../images/service-3.png";
 import Service4 from "../../images/service-4.png";
 import ppe from "../../images/ppe.jpg";
 import MultiCarousel from "./MultiCarosel";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -27,32 +28,26 @@ const Home = () => {
     {
       name: "Fire Extinguishers",
       image: Fire,
-      
     },
     {
       name: "Fire Alarm/Detection Systems",
       image: FireAlarm,
-      
     },
     {
       name: "Fire Suppression Systems",
       image: Firesystem,
-      
     },
     {
       name: "Fire Fighting Systems",
       image: FireFighting,
-      
     },
     {
       name: "Emergency Lighting Systems",
       image: Emergency,
-      
     },
     {
       name: "PPE",
       image: ppe,
-     
     },
   ];
 
@@ -61,22 +56,18 @@ const Home = () => {
     {
       title: "Fire Extinguishers",
       image: Service1,
-     
     },
     {
       title: "Fire Suppression System",
       image: Service2,
-      
     },
     {
       title: "Fire Fighting System",
       image: Service3,
-    
     },
     {
       title: "Fire Alarm System",
       image: Service4,
-      
     },
   ];
 
@@ -138,12 +129,12 @@ const Home = () => {
               <h2 className="text-3xl lg:text-5xl text-[#ffffff] font-bold leading-tight mb-4">
                 FIRE FIGHTING SYSTEMS
               </h2>
-              <a
-                href="https://www.capitalsolutions.pk/shop"
+              <Link
+                to='/product'
                 className="bg-[#dc1b24] text-white px-6 py-3 rounded-lg  inline-block hover:bg-black hover:text-white transition duration-300"
               >
                 See Our Products
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -245,13 +236,14 @@ const Home = () => {
           </div>
 
           <div className="pb-[5rem]">
-            <button
+            <Link
+              to="/product"
               type="button"
-              className="rounded-full   mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-2.5 text-center text-xl font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+              className="rounded-full w-[12vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-2.5 text-center text-xl font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
             >
               read more
               <MdKeyboardDoubleArrowRight className="mt-1 ml-3 text-[1.5rem]" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -340,13 +332,15 @@ const Home = () => {
               </div>
             ))}
           </div>
-          <button
+
+          <Link
+            to="/services"
             type="button"
-            className="rounded-full   mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-lg font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+            className="rounded-full w-[10vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-lg font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
           >
             see more
             <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -366,7 +360,7 @@ const Home = () => {
         </div>
       </div>
 
-      <MultiCarousel  className='pb-5' />
+      <MultiCarousel className="pb-5" />
 
       {/* ===============================part 7  ===================================== */}
       <div

@@ -33,17 +33,17 @@ const Footer = () => {
                 <h3 className="text-2xl  font-bold mb-5 ">Products</h3>
                 <ul className="text-md">
                   <li className="py-2">
-                    <Link to="" className=" hover:underline ">
+                    <Link to="/product" className=" hover:underline ">
                       Fire Fighting Solutions
                     </Link>
                   </li>
                   <li className="py-2">
-                    <Link to="" className=" hover:underline ">
+                    <Link to="/product" className=" hover:underline ">
                       Emergency Lights
                     </Link>
                   </li>
                   <li className="py-2">
-                    <Link to="" className=" hover:underline ">
+                    <Link to="/product" className=" hover:underline ">
                       Personal Protective Equipments (PPE)
                     </Link>
                   </li>
@@ -72,12 +72,12 @@ const Footer = () => {
                 </ul>
                 <ul className="myFooterSocialIcons gap-4  flex  mt-5 social-network">
                     <li className="icoFacebook  rounded-[40px] hover:bg-blue-600 hover:text-white h-[2.5rem] border-2 border-black w-[2.5rem]">
-                      <a
-                        href="https://web.facebook.com/people/Alpha-Interprieses-PVT-LTD/100077882233109/?ref=py_c&_rdc=1&_rdr"
+                      <Link
+                        to=""
                         target="_blank"
                       >
                         <FaFacebookF className="text-center  text-lg ml-2 mt-2" />
-                      </a>
+                      </Link>
                     </li>
                     <li className="  rounded-[40px] hover:bg-blue-500 hover:text-white h-[2.5rem] border-2 border-black w-[2.5rem]">
                       <FaTwitter className="text-center  text-lg ml-2 mt-2" />

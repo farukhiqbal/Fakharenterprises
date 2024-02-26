@@ -7,7 +7,7 @@ import ProductItem from "./ProductItems";
 const Products = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1); // Start page from 1
-  const productsPerPage = 6;
+  const productsPerPage = 8;
 
   // Filter products based on search query
   const filteredProducts = ProductItem.filter((product) =>
