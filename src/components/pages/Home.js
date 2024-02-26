@@ -27,32 +27,32 @@ const Home = () => {
     {
       name: "Fire Extinguishers",
       image: Fire,
-      link: "https://www.capitalsolutions.pk/product-category/fire-extinguishers/",
+      
     },
     {
       name: "Fire Alarm/Detection Systems",
       image: FireAlarm,
-      link: "https://www.capitalsolutions.pk/product-category/fire-alarm-system/",
+      
     },
     {
       name: "Fire Suppression Systems",
       image: Firesystem,
-      link: "https://www.capitalsolutions.pk/product-category/fire-suppression-system/",
+      
     },
     {
       name: "Fire Fighting Systems",
       image: FireFighting,
-      link: "https://www.capitalsolutions.pk/product-category/fire-fighting-system/",
+      
     },
     {
       name: "Emergency Lighting Systems",
       image: Emergency,
-      link: "https://www.capitalsolutions.pk/product-category/emergency-lighting/",
+      
     },
     {
       name: "PPE",
       image: ppe,
-      link: "https://www.capitalsolutions.pk/product-category/ppe-safety-items/",
+     
     },
   ];
 
@@ -61,22 +61,22 @@ const Home = () => {
     {
       title: "Fire Extinguishers",
       image: Service1,
-      link: "https://www.capitalsolutions.pk/fire-extinguishers",
+     
     },
     {
       title: "Fire Suppression System",
       image: Service2,
-      link: "https://www.capitalsolutions.pk/fire-suppression-system",
+      
     },
     {
       title: "Fire Fighting System",
       image: Service3,
-      link: "https://www.capitalsolutions.pk/fire-fighting-system",
+    
     },
     {
       title: "Fire Alarm System",
       image: Service4,
-      link: "https://www.capitalsolutions.pk/fire-alarm-system",
+      
     },
   ];
 

@@ -87,19 +87,16 @@ const Header = () => {
         <div className="md:w-auto lg:w-auto mb-4 md:mb-0 lg:mb-0">
           <Link
             to="#"
-            className="section-area block md:inline lg:inline    py-2 text-lg ml-[5rem]  "
+            className="section-area block md:inline lg:inline    py-2 text-lg ml-[8rem]  "
           >
-                                gawalmandi Rawalpindi, Punjab, Pakistan-56000
+            Gawalmandi Rawalpindi, Punjab, Pakistan-56000
           </Link>
         </div>
 
         <div className="flex items-center justify-center md:justify-end lg:justify-end">
           <ul className="flex justify-around   text-lg py-2  mr-[5rem]  gap-[2rem]">
             <li>
-              <Link
-                to=""
-                target="_blank"
-              >
+              <Link to="" target="_blank">
                 <FaFacebookF />
               </Link>
             </li>
@@ -141,7 +138,7 @@ const Header = () => {
             </div>
             <div className="flex  items-center">
               <Link to="/" onClick={handleLinkClick}>
-                <img className="h-[55px]  w-[16rem]" src={logo} alt="" />
+                <img className="h-[55px]  w-[24.5rem]" src={logo} alt="" />
               </Link>
             </div>
           </div>
