@@ -116,7 +116,7 @@ const Home = () => {
         className="relative"
         style={{
           height: "90vh",
-          backgroundImage: `url('https://i0.wp.com/www.capitalsolutions.pk/wp-content/uploads/2022/08/Safety.jpg?fit=1000%2C667&ssl=1')`,
+          backgroundImage: `url('https://asfiresafety.com.pk/wp-content/uploads/2023/09/Fines-for-Fire-Safety-Can-Increase-Significantly1.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "top center",
           // backgroundAttachment: "fixed",

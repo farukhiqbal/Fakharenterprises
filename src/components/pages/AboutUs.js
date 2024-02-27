@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import aboutus from '../../images/contact.jpg'
 
 const AboutUs = () => {
   return (
@@ -10,8 +11,8 @@ const AboutUs = () => {
           backgroundSize: "cover",
           //   backgroundColor: "#1d1d1d", // Corrected typo in backgroundColor
           backgroundPosition: "50% 50%",
-          backgroundImage:
-            'url("https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/safety-banner.png")',
+          backgroundImage: `url(${aboutus})`, // Wrap url() in backticks to include a dynamic URL
+
         }}
       >
         <div className="container  w-[80vw]  mx-auto">

@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout";
 import Pagination from "@mui/material/Pagination";
 import { IoSearch } from "react-icons/io5";
 import ProductItem from "./ProductItems";
+import product from "../../images/product.jpg";
 
 const Products = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -35,15 +36,15 @@ const Products = () => {
     <Layout>
       <div className="relative md:flex md:items-center  ">
         <div className="ProductTopDiv mt-5   w-[80vw] mx-auto   h-[20rem] absolute md:p-10">
-          <h1 className="heading text-3xl text-center mx-auto md:text-left lg:text-left md:text-7xl text-white mb-4 md:mb-10">
+          <h1 className="heading text-3xl text-center  font-bold  mx-auto md:text-left lg:text-left md:text-7xl text-white mb-4 md:mb-10">
             All PRODUCTS
           </h1>
           <p className="   text-white text-lg  ml-3    md:ml-0 lg:ml-0  md:text-3xl font-normal"></p>
         </div>
         <img
-          src="https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/safety-banner.png"
+          src={product}
           alt=""
-          className="w-full    h-[30vh]  md:h-full lg:h-full md:w-auto"
+          className="w-full    h-[30vh]   md:w-full   md:h-[70vh] cover"
         />
       </div>
 
@@ -84,7 +85,11 @@ const Products = () => {
                 key={product.id}
                 className="item bg-white text-center p-[20px]   shadow-[#0000003c] shadow-lg mb-30"
               >
-                <img src={product.image} alt="" className="bg-transparent" />
+                <img
+                  src={product.image}
+                  alt=""
+                  className="bg-transparent cursor-pointer"
+                />
                 <h3 className="text-center my-3  font-bold ">{product.name}</h3>
               </div>
             ))}
