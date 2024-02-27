@@ -8,7 +8,7 @@ import product from "../../images/product.jpg";
 const Products = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1); // Start page from 1
-  const productsPerPage = 8;
+  const productsPerPage = 12;
 
   // Filter products based on search query
   const filteredProducts = ProductItem.filter((product) =>
@@ -36,15 +36,15 @@ const Products = () => {
     <Layout>
       <div className="relative md:flex md:items-center  ">
         <div className="ProductTopDiv mt-5   w-[80vw] mx-auto   h-[20rem] absolute md:p-10">
-          <h1 className="heading text-3xl text-center  font-bold  mx-auto md:text-left lg:text-left md:text-7xl text-white mb-4 md:mb-10">
+          <h1 className="heading text-3xl text-center md:ml-[5rem] font-bold  mx-auto md:text-left lg:text-left md:text-7xl text-white mb-4 md:mb-10">
             All PRODUCTS
           </h1>
           <p className="   text-white text-lg  ml-3    md:ml-0 lg:ml-0  md:text-3xl font-normal"></p>
         </div>
         <img
-          src={product}
+          src="https://asfiresafety.com.pk/wp-content/uploads/2023/09/fire-safety.jpg"
           alt=""
-          className="w-full    h-[30vh]   md:w-full   md:h-[70vh] cover"
+          className="w-full    h-[30vh]   md:w-full   md:h-[50vh] "
         />
       </div>
 
