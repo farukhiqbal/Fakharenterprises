@@ -220,7 +220,7 @@ const Home = () => {
                 key={index}
                 className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 px-4 mb-8"
               >
-                <a href={product.link}>
+                <Link to='/product'>
                   <div className="item">
                     <img
                       src={product.image}
@@ -231,7 +231,7 @@ const Home = () => {
                       {product.name}
                     </h4>
                   </div>
-                </a>
+                </Link>
               </div>
             ))}
           </div>
@@ -240,10 +240,10 @@ const Home = () => {
             <Link
               to="/product"
               type="button"
-              className="rounded-full w-[12vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-2.5 text-center text-xl font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+              className="rounded-full w-[15vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-2.5 text-center text-lg font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
             >
-              read more
-              <MdKeyboardDoubleArrowRight className="mt-1 ml-3 text-[1.5rem]" />
+                See More Products
+              <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
             </Link>
           </div>
         </div>

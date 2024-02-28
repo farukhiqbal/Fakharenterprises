@@ -25,7 +25,7 @@ const Number = () => {
             </div>
             <div className="item  w-50  ">
               <div className="content-area  font-bold text-white">
-                <h3 className="   text-[25px]   mt-[3rem]  md:mt-0 lg:mt-0   md:text-[30px] lg:text-[30px] leading-10 ">
+                <h3 className="   text-[25px]   mt-[3rem]  md:mt-0 lg:mt-0   md:text-[35px] lg:text-[35px] leading-10 ">
                   Need The Best Fire Safety Solutions?
                 </h3>
                 <a

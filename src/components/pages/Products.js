@@ -72,8 +72,15 @@ const Products = () => {
         </div>
 
         {/* Display filtered products */}
-        <h2 className="text-3xl font-[600] justify-center flex gap-3 mb-8">
-          <p className="text-red-600  ">All </p> Products
+        <h2 className="text-3xl font-[700] justify-between flex gap-3 mb-8">
+          <p className="text-red-600 flex ">All 
+           <p className="text-black ml-2">Products
+            </p>
+          </p>
+
+  <span className="text-gray-500"> Total{`(${filteredProducts.length} products)`}</span>
+
+
         </h2>
         {filteredProducts.length === 0 ? (
           <p className="text-center font-bold text-2xl mt-[3rem]">
@@ -91,7 +98,12 @@ const Products = () => {
                   alt=""
                   className="bg-transparent cursor-pointer"
                 />
-                <Link to={`/productdetail/${product.id}`} className="text-center  cursor-pointer my-3  font-bold ">{product.name}</Link>
+                <Link
+                  to={`/productdetail/${product.id}`}
+                  className="text-center  cursor-pointer my-3  font-bold "
+                >
+                  {product.name}
+                </Link>
               </div>
             ))}
           </div>

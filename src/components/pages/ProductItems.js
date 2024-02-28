@@ -48,70 +48,82 @@ import selfretracting from '../../images/selretraacting lifeline.png'
 
 
 const ProductItem = [
-  {
-    id: 1,
-    name: "Fire Extinguishers",
-    image:
-      "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-extinguishers.jpg",
-  },
-  {
-    id: 2,
-    name: "Fire Alarm/Detection Systems",
-    image:
-      "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-alarm.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Fire Extinguishers",
+  //   image:
+  //     "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-extinguishers.jpg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "Fire Alarm/Detection Systems",
+  //   image:
+  //     "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-alarm.jpg",
+  // },
   {
     id: 3,
-    name: "Fire Suppression Systems",
+    name: "Wet Chemical Fire Suppression System    ",
+    description:'The Electromechanical Fire Suppression System with the commercial name “ΜΟΒΙΑΚ DIAS” uses the ABF-Wet Chemical extinguishing agent and the most Advanced, Efficient, Reliable & Certified Fire Detection Solution method in the direct & effective (F) category fire suppression for Professional Kitchens. Fire is detected by an approved (UL/FM) Linear Heat Detection Cable of activation temperatures 138°C, 180°C, or 251°C, the installation of which is particularly quick & simple. This Cable is connected to a Control Panel that controls the Automatic Operation of the System.    ',
     image:
       "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-suppression.jpg",
   },
   {
     id: 4,
-    name: "Fire Fighting Systems",
+    name: "Fire  Pump Set    ",
+    description:'Fire Pumps Sets are designed according to European and American Standards of firefighting equipment offering reliability and efficiency.  Fire fighting units reavailble fully assembled offering ease both during transport and during installation. The Sprinkler network is always under pressure. In automatic mode, when a fire occurs the pressure drop automatically starts the Jockey Pump and only if the pressure drop continues initiates the Electric Pump. If the pressure drop continues, the Diesel Pump starts until the pressure of the system reach the default pressure. The pumps can be activated manually while each pump isolation valve is both for suction and defuse. The extinguishing system ( pumps & pump motors, mechanical components and electrical panel) is mounted on a Rigid Steel Base construction. Firefighting units are delivered under Special Delivery Terms.',
     image:
       "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/fire-fighting.jpg",
   },
   {
     id: 5,
-    name: "Emergency Lighting Systems",
+    name: "Emergency Lighting GRL-29    ",
+    description:'These luminaires are used in places where emergency luminaires are needed. Each luminaire must be permanently connected to the mains power supply. In normal operation the power and the charge indicators light to show that the batteries are in charging condition. In case of a mains power supply failure the power and the charge indicators turn off and the luminaire will light the spot lamps automatically in emergency mode.  When the mains power supply is restored the device turns to normal operation.    ',
     image:
       "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/emergency-lighting.jpg",
   },
   {
     id: 6,
-    name: "PPE",
+    name: "PPE Coveralls    ",
+    description:'The use of proper protective clothing and PPE is essential for all tasks, to ensure minimal risk of injury.    ',
     image:
       "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/featured/ppe.jpg",
   },
 
-  { id: 7, name: "Central Battery System 24V DC CB", image: cbs },
-  {
-    id: 8,
-    name: "Central Battery System 24V DC Eco Light    ",
-    image: ecolight,
-  },
-  {
-    id: 9,
-    name: "Central Battery System Addressable Emergency Luminaries 24V DC     ",
-    image: addressable,
-  },
+  { id: 7, name: "Central Battery System 24V DC CB",
+  description:'GR-8600/300/4  Addressable panel with 4 lighting circuits, 300W. Requires 2 batteries 12V/33Ah GR-8600/300/8 Addressable panel with 8 lighting circuits, 300W. Requires 2 batteries 12V/33Ah  GR-8600/600/8 Addressable panel with 8 lighting circuits, 600W. Requires 2 batteries 12V/55Ah',
+  image: cbs },
+  // {
+  //   id: 8,
+  //   name: "Central Battery System 24V DC Eco Light    ",
+  //   image: ecolight,
+  // },
+  // {
+  //   id: 9,
+  //   name: "Central Battery System Addressable Emergency Luminaries 24V DC     ",
+  //   image: addressable,
+  // },
 
-  { id: 10, name: "6Lt ABF Fire Extinguisher Portable   ", image: fire5kg },
+  { id: 10, name: "6Lt ABF Fire Extinguisher Portable   ",
+  description:'Fire Extinguisher 6Lt with one seam vessel with INTERNAL PLASTIC LAYER and Pressure Gauge Safety Release Valve.  ',
+   image:'https://i0.wp.com/www.capitalsolutions.pk/wp-content/uploads/2021/10/MBK13-060ABF-P1E-1.jpg?fit=1000%2C1000&ssl=1',
+  },
 
   {
     id: 11,
     name: "Fire Extinguishers CO2 30KG        ",
+    description:'30Kg CO2 Trolley Fire Extinguisher with 40Lt Cylinder with 5m Discharge Hose. HIGH-PRESSURE EPDM Discharge Hose of WP 155bar with Wooden Handle and Flow Control Valve, according to EN853 requirements, HEAVY Duty Carriage and wheels, Valve Protection HANDLE All CO2 Trolley Fire Extinguishers are also available with 8-meter discharge hose upon request',
     image: fire30kg1,
   },
   {
     id: 12,
-    name: "Fire Extinguishers DCP 1KG        ",
+    name: "Fire Extinguishers DCP 2KG        ",
+    description:'Fire Extinguisher 2kg with one seam vessel and special powder ABC85. Fire Rate is equal with Fire Rate of 3kgr F/E ABC40. Pressure Gauge Safety Release Valve.    ',
     image: dcp1kg,
   },
   {
     id: 13,
     name: "Fire Extinguishers DCP 6KG BC     ",
+
     image: dcp6kg,
   },
   {
@@ -124,7 +136,9 @@ const ProductItem = [
     name: "Water – AFFF 9Ltr        ",
     image: foam,
   },
-  { id: 16, name: "Fire Extinguishers Ball  ", image: fireball },
+  { id: 16, name: "Fire Extinguishers Ball  ",
+     description:'An automatic Fire extinguisher of 1.3kg of Dry Powder ABC90% in a ball shape is an innovative product that is used for extinguishing initial stage fires.It is a lightweight product easy to use even for children and old age people (in case of fire).The extinguisher is easily activated either automatic with installation placed on a Special Bracket close to the equipment that should be protected when the temperature reaches 70ºC or by throwing that to the fire. In this way, the user does not need to approach the fire. This product can be used for the protection of electrical cabinets, servers, flammable material, Canisters of Chemical liquids, solid Fuels, and in general for risk areas so that to extinguish initial stage fires, etc.There is a sound during activation that can be considered as an alarm for fire.',
+  image: fireball },
 
   { id: 17, name: "Fire Fighting Sprinkler 1/2″          ", image: sprinkler },
   {
@@ -135,26 +149,34 @@ const ProductItem = [
   {
     id: 19,
     name: "Fire Fighting Breaching Inlet for Dry Riser          ",
+    description:'2 Way Breeching Inlet For Dry Risers    ',
     image: breaching,
   },
 
-  { id: 20, name: "Forestry Fire Hose          ", image: firepipe },
+  { id: 20, name: "Forestry Fire Hose          ",
+   description:'Forestry fire hose is a lightweight single jacket 100% spun polyester hose lined with TPU elastomer. The optional Wisentec treatment greatly increases abrasion, heat, and flame resistance while virtually eliminating water pick-up. When used, HBY forestry fire hose is protected from mildew and no drying is required. Its tightly woven cover is specially treated for enhanced durability, reduced friction when dragging, and resistance to ozone, weathering, mildew, aging, and regular abrasion. Its PU tube provides much better resistance to punctures, mildew, petroleum, solvents, and aging as compared to conventional rubber fire hoses – and it is only a fraction of the weight and is much more compact. A stripe of a contrasting color running the full length of the hose can be woven into the jacket. This meets NFPA recommendations for pump panel identification Forestry fire fighting, standby forestry fire protection. Due to its light duty characteristics, we do NOT recommend this hose be used for washdown or in construction, rental, plant, or mill service.   ',
+  image: firepipe },
 
   {
     id: 21,
     name: "Fire Fighting Cabinets          ",
+    description:'Electrostatic Paint Ral3000, UV – Protection with Silk Screen. Dimensions ( Heigth x Width x Depth): 700 x 630 x 180mm.  Plate thickness: 0,9mm',
     image: pipebox,
   },
-  { id: 22, name: "Fire Fighting Reel        ", image: firereel },
+  { id: 22, name: "Fire Fighting Reel        ",
+    description:'Wall Mounted MANUAL swinging fire fighting hose reel with Fire Hose 1”, 30m. Ready to use. nozzle. Minimum Cabinet Size (WxHxD): 760x750x280mm    CERTIFIED ACCORDING to CPR (CE) 305/2011/EU & EN671-1:2012',
+  image: firereel },
 
   {
     id: 23,
     name: "Fire Fighting Dry Barrel Fire Hydrant      ",
+    description:' Design Standard: AWWA C502 .  Nominal Pressure: 250PSI. One Pumper Nozzle, 4.5-4NH thread. Two hose nozzles, 2.5-7.5NH threads. Other kinds of threads are available. Mechanical connector: AWWA/ANSI C153/A21.53 6’’ . Flange connector: ASME B16.5 CLASS150/DIN2501 PN16',
     image: barrel,
   },
   {
     id: 24,
-    name: " Fire Fighting Sprinkler 3/4”            ",
+    name: " Fire Fighting Sprinkler 3/4”  ",
+    description:'Special Sprinkler 68°C 3/4” for use in warehouses or other rooms with height till 13m and coverage till 9.3m2. K=200, Upright.    ',
     image: sprinkler2,
   },
   {
@@ -191,12 +213,14 @@ const ProductItem = [
   {
     id:30 ,
     name: "PPE Safety Helmets     ",
+    description:'With many years of experience in the design of industrial safety helmets, we have uniquely combine safety, comfort, and styling feature to ensure acceptance by users in most head protection requirements.    ',
     image: helomit ,
   },
 
   {
     id:31 ,
     name: "PPE Safety Shoes    ",
+    description:'Employees who face possible foot or leg injuries from falling, rolling objects, crushing, or penetrating materials should wear protective footwear. Also, employees whose work involves exposure to hot substances, corrosive or poisonous materials must have protective gear to cover exposed body parts, including legs and feet. If an employee’s feet may be exposed to electrical hazards, non-conductive footwear should be worn.    ',
     image:jogger ,
   },
   {
@@ -207,16 +231,19 @@ const ProductItem = [
   {
     id: 33,
     name: "PPE Safety Goggles    ",
+    description:'The right Eye Protection is vital for employees at all times, and our range of general safety eyewear and accessories meet these needs. It will protect the user eyesight and reduce risk of causalities in the workplace.    ',
     image: goggles,
   },
   {
     id:34 ,
     name: "SAFETY HARNESS UNI 1    ",
+    description:'Falls are among the most common causes of serious work related injuries and deaths. Employers must set up the work place to prevent employees from falling off of overhead platforms, elevated work stations or into holes in the floor and walls.    ',
     image:safetyharness ,
   },
   {
     id:35 ,
     name: "PPE Safety Vest    ",
+    description:'High-visibility clothing is designed to make users conspicuous in any lighting condition, day or night. High-visibility garments are essential safety wear for people who need to be seen, for sample those working on or near busy roads.    ',
     image:safetyharness2 ,
   },
     
