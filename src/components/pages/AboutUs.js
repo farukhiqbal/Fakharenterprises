@@ -5,7 +5,7 @@ import Number from "./Number";
 
 const AboutUs = () => {
   return (
-    <Layout>
+    <Layout  title={'about us '}>
       <div
         className="title-area h-[50vh]"
         style={{

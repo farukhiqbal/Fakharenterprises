@@ -31,7 +31,7 @@ const Services = () => {
     },
   ];
   return (
-    <Layout>
+    <Layout title={'services'}>
       <div
         className="title-area h-[50vh]"
         style={{

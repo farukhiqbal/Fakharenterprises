@@ -73,8 +73,8 @@ const Footer = () => {
                 <ul className="myFooterSocialIcons gap-4  flex  mt-5 social-network">
                     <li className="icoFacebook  rounded-[40px] hover:bg-blue-600 hover:text-white h-[2.5rem] border-2 border-black w-[2.5rem]">
                       <Link
-                        to=""
-                        target="_blank"
+                        to="https://www.facebook.com/businessrwp?mibextid=ZbWKwL"
+                        
                       >
                         <FaFacebookF className="text-center  text-lg ml-2 mt-2" />
                       </Link>

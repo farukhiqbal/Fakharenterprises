@@ -34,7 +34,7 @@ const Products = () => {
   );
 
   return (
-    <Layout>
+    <Layout  title={'products'}>
       <div className="relative md:flex md:items-center  ">
         <div className="ProductTopDiv mt-5   w-[80vw] mx-auto   h-[20rem] absolute md:p-10">
           <h1 className="heading text-3xl text-center md:ml-[5rem] font-bold  mx-auto md:text-left lg:text-left md:text-7xl text-white mb-4 md:mb-10">

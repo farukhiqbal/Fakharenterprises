@@ -112,7 +112,7 @@ const Home = () => {
   ];
 
   return (
-    <Layout>
+    <Layout  title={'fakharinterprises/home'}>
       <section
         className="relative"
         style={{
