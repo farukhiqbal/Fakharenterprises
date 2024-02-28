@@ -15,7 +15,7 @@ import Number from "./Number";
 
 const Contactus = () => {
   return (
-    <Layout  title={'contact us '}>
+    <Layout  title={'contact us'}>
       <div
         className="title-area h-[50vh]"
         style={{
