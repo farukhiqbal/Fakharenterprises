@@ -223,67 +223,80 @@ const ProductItem = [
   {
     id:36 ,
     name: " Loto Items    ",
-    // title:'Electrical Safety Suit (ess)    ',
+    description:'Lockout/tagout (LOTO) devices install on machinery, electrical equipment, and plumbing systems to reduce the risk of injuries from unintended startups during maintenance. They’re an integral part of a complete procedure designed to meet the OSHA standard for the Control of Hazardous Energy (Lockout/Tagout). The LOTO kit includes items like Padlocks, valve lockouts, cable Lockouts, tags, hasps, ties and other accessories.AS Fire & Safety carries a multitude of products for complete lockout solutions for your electrical, circuit breaker, or mechanical kit requirements  ',
     image: lotoitems,
   },
   {
     id:37 ,
     name: " Self Contained Breathing Apparatus    ",
+    description:'A self-contained breathing apparatus (SCBA) is a device worn to provide breathable air in environments with oxygen deficiency, smoke, dangerous gases, and other airborne contaminants that may be otherwise dangerous to breathe. Workers handling hazardous materials or operating in contaminated zones are typically required to wear a self-contained breathing apparatus. Only positive-pressure SCBAs are recommended for entry into atmospheres that are immediately dangerous to life and health (IDLH). AS Fire & Safety has a stock of SCBAs from 15 Minutes to 90 Minutes in Steel and Carbon Cylinders.    ',
     image:selfcontainebreathing ,
   },
   {
     id:38 ,
     name: " Single and Multi Gas Detectors    ",
+    description:'Gas hazards can be broadly categorised as either asphyxiating (depriving the body of oxygen), toxic, or combustible. For petrochemical processing facilities, wastewater treatment plants, and a host of other industries, understanding the potential gas hazards in a given environment is an essential part of ensuring personnel safety. AS Fire & Safety can supply both single and multi gas detectors. Honeywell, MSA, Drager and Chinese single and multi gas detectors can be supplied to our clients.    ',
     image:singlegas ,
   },
   {
     id:39 ,
     name: " Electrical Gloves ",
+    description:'Electrical-insulating gloves and protectors are made of dielectric materials to protect workers from electrical shock. Rubber gloves (sometimes called lineman’s gloves) are worn by electricians working on power lines. Leather protectors are worn over rubber gloves to protect against pinholes or punctures that can damage rubber gloves. Electrical-insulating glove kits include rubber gloves and leather protectors together. Gloves from 00 to 4 with protector can be arranged at very competitive prices.    ',
     image:electricalglove ,
   },
   {
     id:40 ,
     name: " Bio-Hazard Bags and Bins    ",
+    description:'Biohazard waste bags are important for making sure that potentially dangerous waste material is disposed of properly and doesn’t end up hurting people, animals, or the environment. From 18 Ltr to 120 Ltr bags in different colors with certification are available. Waste bins from 4 ltr to 1200 Ltr capacity manufactured from fresh material can be supplied at very competitive prices.',
     image:biozardbag ,
   },{
     id:41 ,
     name: "Road Barriers    ",
+    description:'Road barriers, Plastic Barriers, Water-filled road barriers, road separators, road jersey barriers, and security barriers. Efficient road barriers and a controlling system have become the need of the hour these days. Also, with an increasing number of vehicles in populated areas such as offices, hospitals, public places, and residential premises. Safety Cones, Cat Eyes, Edge Protectors, Delineators and Speed Breakers can be supplied. AS Fire & Safety provides the services of installation of Cat Eyes, Edge Protectors and Speed Breakers. ',
     image:roadbarrier ,
   },
   {
     id:42 ,
     name: " Explosion Proof Torches    ",
+    description:'Explosion-proof flashlights are designed to be used in a “Hazardous Location,”. A “Hazardous Location,” defined as places where fire or explosion hazards may exist due to flammable gases, flammable liquid–produced vapors, combustible liquid–produced vapors, combustible dusts, or ignitable fibers/flyings present in the air in quantities sufficient to produce explosive or ignitable mixtures. Besides, safety flashlight help employees for emergency situation and keeping them safe on the job. Explosion proof torches for working in hazardous zones, 0, 1and 2 are available.    ',
     image:explosiontorch ,
   },
   {
     id:43 ,
     name: " Arc Flash Suit    ",
+    description: 'Get full body protection from arc flash clothing for heat exposure. Each arc flash suit includes an arc flash hood and either full body arc flash coveralls or a combination of arc flash coat and bib overall pants. AS Fire & Safety offered arc flash suits meet or exceed NFPA Standards for the particular Hazard Risk Category. We offer arch flash suits from 8Cal/m2 to 140Cal/m2.    '
+    ,
     image:arcflashsuit ,
   },
   {
     id:44 ,
     name: " Fire Fighting Suit    ",
+    description:'We supply fully certified fire fighter suits with enhanced thermal protection. Our suits have been manufactured to meet industry’s standards. AS Fire & Safety fire fighter suits will enable your teams to fight fires in all types of fire fighting situation efficiently.    ',
     image: firefightsuit,
   },
   {
     id:45 ,
     name: "  Cut Resistance Glove    ",
+    description:'Hand injuries are the most common injuries sustained in the work place. There are many types of hand injuries which may cause loss of thousands of working hours in the long run in any industry. AS Fire & Safety offers different solutions to avoid hand injuries in different working environments. We offer from simple cotton gloves to impact resistance gloves to high temperature resistance gloves.    ',
     image: cutresistanceglove,
   },
 
   {
     id:46 ,
     name: " Safety Shoe-PEZZOL    ",
+    description:'When you are working in a dynamic environment, then you are always prone to injuries if you do not use proper safety items and the prime target of such injury is the worker’s foot. A safety shoe can protect the worker from foot injury and it is necessary to use a certified Safety Shoe instead of any shoe. AS Fire & Safety has stock of safety shoes which meet EN and CE Certifications.    ',
     image: safetyshoepezzol,
   },
   {
     id:47 ,
     name: " Full Face Mask    ",
+    description:'Respiratory damage can cause lethal injury if the proper respiratory safety items are not used in working environments where a worker is exposed to dangerous chemicals or gases. Proper use of half and full face masks is also very important. AS Fire & Safety has disposable and reusable masks which meet CE and EN Certifications.    ',
     image: fullfacemask,
   },
   {
     id:48 ,
     name: "  Self Retracting Lifeline    ",
+    description:'When you are working at height, then a minor mistake can cause a lot of damage not only to the property but to the life of a worker as well. So, use of a fall protection device is a must to avoid any sort of damage. Full Body harness with lanyards are commonly available but a certified harness from an authentic source can protect you and your worker. All fall protection equipment such as lanyards, full body harness, lineman belts and SRLs can be arranged at very competitive prices.    ',
     image: selfretracting,
   },
   
