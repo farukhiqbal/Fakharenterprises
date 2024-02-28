@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import aboutus from '../../images/contact.jpg'
+import aboutus from "../../images/contact.jpg";
+import Number from "./Number";
 
 const AboutUs = () => {
   return (
@@ -12,7 +13,6 @@ const AboutUs = () => {
           //   backgroundColor: "#1d1d1d", // Corrected typo in backgroundColor
           backgroundPosition: "50% 50%",
           backgroundImage: `url(${aboutus})`, // Wrap url() in backticks to include a dynamic URL
-
         }}
       >
         <div className="container  w-[80vw]  mx-auto">
@@ -36,8 +36,8 @@ const AboutUs = () => {
           </h2>
 
           <p className="mb-8 px-5 text-black leading-10 text-[1rem]">
-          Fakhar Enterprises has been providing inspection, functional testing,
-            and maintenance of fire protection systems to commercial,
+            Fakhar Enterprises has been providing inspection, functional
+            testing, and maintenance of fire protection systems to commercial,
             industrial, government, and <br /> mercantile facilities since 2013.
             We expanded our services in 2014 by adding special hazards systems
             and in 2016 added fire alarm and detection. Most recently,
@@ -61,7 +61,7 @@ const AboutUs = () => {
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="p-4">
               <p className="text-[70px] mt- font-bold   uppercase ">
-              Fakhar  <br/> Enterprises
+                Fakhar <br /> Enterprises
               </p>
             </div>
             <div class="p-4">
@@ -94,7 +94,7 @@ const AboutUs = () => {
                 History
               </h3>
               <p className="mb-[2rem]  leading-10  text-[17px] font-[450] ">
-              Fakhar Enterprises has been providing inspection, functional
+                Fakhar Enterprises has been providing inspection, functional
                 testing, and maintenance of fire protection systems to
                 commercial, industrial, government, and mercantile facilities
                 since 2013. We expanded our services in 2014 by adding special
@@ -140,7 +140,7 @@ const AboutUs = () => {
                 Core Values
               </h3>
               <p className="mb-[2rem] leading-10 text-[17px] font-[450]">
-              Fakhar Enterprises Fire team members were asked to provide
+                Fakhar Enterprises Fire team members were asked to provide
                 management with their input to establish our core values.
                 Capital team members have developed core values using one word
                 with a description of what each word means to them. Capital
@@ -164,49 +164,15 @@ const AboutUs = () => {
         <div class="container text-white mt-2  w-[80vw] mx-auto">
           <p class=" text-2xl  py-5 ">We Are The</p>
           <h2 className="   text-[35px]    md:text-[65px] font-bold  ">
-            Professional Safety Solutions <br /> Provider You Can Rely On!
+            Professional Safety Solutions <br /> Provider You Can Reply On!
           </h2>
           <p className="text-lg">Contact Us Today For Personalized Service</p>
         </div>
       </div>
 
       {/* =======================================part 6 ============================================================ */}
-
-      <div
-        className="call-to-action  mt-[12rem]"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(255, 31, 42, 1) 0%, rgba(128, 16, 21, 1) 100%)",
-          padding: "60px 0px",
-        }}
-      >
-        <div className="container   w-[80vw]  mx-auto">
-          <div className="items  flex  flex-col    md:flex-row   lg:flex-row ">
-            <div className="item w-[40%] ">
-              <div className="image-area    mt-[-150px]   mb-[-20px]">
-                <img
-                  src="https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/cta-image.png"
-                  className="img-responsive"
-                  alt="cta image"
-                />
-              </div>
-            </div>
-            <div className="item  w-50  ">
-              <div className="content-area  font-bold text-white">
-                <h3 className="   text-[25px]   mt-[3rem]  md:mt-0 lg:mt-0   md:text-[30px] lg:text-[30px] leading-10 ">
-                  Need The Best Fire Safety Solutions?
-                </h3>
-                <a
-                  href="tel:0304 7083322"
-                  className="     text-[40px]     md:text-[75px] lg:text-[75px]  leading-11"
-                >
-                  +92 304 7083322
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="mt-[8rem]"></div>
+      <Number />
     </Layout>
   );
 };

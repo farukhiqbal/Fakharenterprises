@@ -6,6 +6,7 @@ import Products from './components/pages/Products';
 import Services from './components/pages/Services';
 import AboutUs from './components/pages/AboutUs';
 import Contactus from './components/pages/Contactus';
+import Productdetail from './components/pages/Productdetail';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/services'  element={<Services/>}/>
         <Route path='/aboutus'  element={<AboutUs/>}/>
         <Route path='/contactus'  element={<Contactus/>}/>
+        <Route path='/productdetail/:id'  element={<Productdetail/>}/>
       
 
       </Routes>

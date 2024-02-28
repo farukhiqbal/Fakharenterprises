@@ -26,6 +26,25 @@ import glaves from '../../images/WElding-GLoves_.webp'
 import goggles  from '../../images/Welding-Goggles.webp' 
 import safetyharness from '../../images/Safety-Harness-UNi-.webp'
 import safetyharness2 from '../../images/Safety-Vest-1.webp'
+import singlegas from   '../../images/siglegasdetectors.png'
+import electricalglove from '../../images/electrical gloves.png'
+import biozardbag from '../../images/bio-hazardbag.png'
+import roadbarrier from '../../images/roadbarriers.png'
+import explosiontorch from '../../images/explosiontorches.png'
+import  arcflashsuit from '../../images/arcflashsuit.png'
+import firefightsuit from '../../images/firefightsuit.png'
+import cutresistanceglove from '../../images/cutresistanceglove.png'
+import lotoitems from '../../images/lotoitems.png'
+import selfcontainebreathing from '../../images/selfcontainbreathing.png'
+import safetyshoepezzol from '../../images/safetyshoe-pezzol.png'
+import fullfacemask from '../../images/fullfacemask.png'
+import selfretracting from '../../images/selretraacting lifeline.png'
+
+
+
+
+
+
 
 
 const ProductItem = [
@@ -200,6 +219,74 @@ const ProductItem = [
     name: "PPE Safety Vest    ",
     image:safetyharness2 ,
   },
+    
+  {
+    id:36 ,
+    name: " Loto Items    ",
+    // title:'Electrical Safety Suit (ess)    ',
+    image: lotoitems,
+  },
+  {
+    id:37 ,
+    name: " Self Contained Breathing Apparatus    ",
+    image:selfcontainebreathing ,
+  },
+  {
+    id:38 ,
+    name: " Single and Multi Gas Detectors    ",
+    image:singlegas ,
+  },
+  {
+    id:39 ,
+    name: " Electrical Gloves ",
+    image:electricalglove ,
+  },
+  {
+    id:40 ,
+    name: " Bio-Hazard Bags and Bins    ",
+    image:biozardbag ,
+  },{
+    id:41 ,
+    name: "Road Barriers    ",
+    image:roadbarrier ,
+  },
+  {
+    id:42 ,
+    name: " Explosion Proof Torches    ",
+    image:explosiontorch ,
+  },
+  {
+    id:43 ,
+    name: " Arc Flash Suit    ",
+    image:arcflashsuit ,
+  },
+  {
+    id:44 ,
+    name: " Fire Fighting Suit    ",
+    image: firefightsuit,
+  },
+  {
+    id:45 ,
+    name: "  Cut Resistance Glove    ",
+    image: cutresistanceglove,
+  },
+
+  {
+    id:46 ,
+    name: " Safety Shoe-PEZZOL    ",
+    image: safetyshoepezzol,
+  },
+  {
+    id:47 ,
+    name: " Full Face Mask    ",
+    image: fullfacemask,
+  },
+  {
+    id:48 ,
+    name: "  Self Retracting Lifeline    ",
+    image: selfretracting,
+  },
+  
 
 
 

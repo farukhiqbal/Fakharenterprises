@@ -11,6 +11,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import Number from "./Number";
 
 const Contactus = () => {
   return (
@@ -106,15 +107,13 @@ const Contactus = () => {
                       <div className="w-full   md:w-full   lg:w-1/2    px-0   md:px-4">
                         <div className="form-group   mb-[1rem]  md:mb-[2rem]">
                           <p>
-                            <span className="  " data-name="your-phone">
+                            <span className="  ">
                               <input
                                 size="40"
                                 className=" border-b-[5px] w-full border-[#f1f1f1]  py-2  outline-none focus:border-[#f1f1f1]"
                                 aria-required="true"
-                                aria-invalid="false"
                                 placeholder="Phone Number"
-                                value=""
-                                type="text"
+                                type="number"
                                 name="your-phone"
                               />
                             </span>
@@ -163,7 +162,7 @@ const Contactus = () => {
                       type="button"
                       className="rounded-full   mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-xl font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
                     >
-                      see more
+                      Submit
                       <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
                     </button>
                   </form>
@@ -192,42 +191,8 @@ const Contactus = () => {
       </div>
 
       {/* =======================================part 6 ============================================================ */}
-
-      <div
-        className="call-to-action  mt-[12rem]"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(255, 31, 42, 1) 0%, rgba(128, 16, 21, 1) 100%)",
-          padding: "60px 0px",
-        }}
-      >
-        <div className="container   w-[80vw]  mx-auto">
-          <div className="items  flex  flex-col    md:flex-row   lg:flex-row ">
-            <div className="item w-[40%] ">
-              <div className="image-area   mt-[-150px]   mb-[-20px]">
-                <img
-                  src="https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/cta-image.png"
-                  className="img-responsive"
-                  alt="cta image"
-                />
-              </div>
-            </div>
-            <div className="item  w-50  ">
-              <div className="content-area  font-bold text-white">
-                <h3 className="   text-[25px]   mt-[3rem]  md:mt-0 lg:mt-0   md:text-[30px] lg:text-[30px] leading-10 ">
-                  Need The Best Fire Safety Solutions?
-                </h3>
-                <a
-                  href="tel:0304 7083322"
-                  className="     text-[40px]     md:text-[75px] lg:text-[75px]  leading-11"
-                >
-                  +92 304 7083322
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="mt-[8rem]"></div>
+      <Number />
     </Layout>
   );
 };

@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout";
 import Pagination from "@mui/material/Pagination";
 import { IoSearch } from "react-icons/io5";
 import ProductItem from "./ProductItems";
+import { Link } from "react-router-dom";
 import product from "../../images/product.jpg";
 
 const Products = () => {
@@ -90,7 +91,7 @@ const Products = () => {
                   alt=""
                   className="bg-transparent cursor-pointer"
                 />
-                <h3 className="text-center my-3  font-bold ">{product.name}</h3>
+                <Link to={`/productdetail/${product.id}`} className="text-center  cursor-pointer my-3  font-bold ">{product.name}</Link>
               </div>
             ))}
           </div>
