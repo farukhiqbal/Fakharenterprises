@@ -38,9 +38,9 @@ const AboutUs = () => {
           <p className="mb-8 px-5 text-black leading-10 text-[1rem]">
             Fakhar Enterprises has been providing inspection, functional
             testing, and maintenance of fire protection systems to commercial,
-            industrial, government, and <br /> mercantile facilities since 2013.
-            We expanded our services in 2014 by adding special hazards systems
-            and in 2016 added fire alarm and detection. Most recently,
+            industrial, government, and <br /> mercantile facilities since 2021.
+            We expanded our services in 2022 by adding special hazards systems
+            and in 2023 added fire alarm and detection. Most recently,
             <br /> we have added access control systems, fire extinguisher sales
             and service, and fire protection systems management programs.
           </p>

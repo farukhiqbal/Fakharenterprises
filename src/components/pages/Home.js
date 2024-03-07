@@ -17,6 +17,10 @@ import ppe from "../../images/ppe.jpg";
 import MultiCarousel from "./MultiCarosel";
 import { Link } from "react-router-dom";
 import Number from "./Number";
+import product1 from "../../images/product1.jpeg";
+import product2 from "../../images/product2.jpeg";
+import product3 from "../../images/product3.jpeg";
+import product4 from "../../images/product4.jpeg";
 
 const Home = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -27,16 +31,16 @@ const Home = () => {
 
   const products = [
     {
-      name: "Fire Extinguishers",
-      image: Fire,
+      name: "",
+      image: product1,
     },
     {
-      name: "Fire Alarm/Detection Systems",
-      image: FireAlarm,
+      name: "",
+      image: product2,
     },
     {
-      name: "Fire Suppression Systems",
-      image: Firesystem,
+      name: "",
+      image: product3,
     },
     {
       name: "Fire Fighting Systems",
@@ -112,7 +116,7 @@ const Home = () => {
   ];
 
   return (
-    <Layout  title={'fakharinterprises'}>
+    <Layout title={"fakharinterprises"}>
       <section
         className="relative"
         style={{
@@ -131,7 +135,7 @@ const Home = () => {
                 FIRE FIGHTING SYSTEMS
               </h2>
               <Link
-                to='/product'
+                to="/product"
                 className="bg-[#dc1b24] text-white px-6 py-3 rounded-lg  inline-block hover:bg-black hover:text-white transition duration-300"
               >
                 See Our Products
@@ -170,7 +174,7 @@ const Home = () => {
                 Fakhar Enterprises is a pioneer in providing inspection,
                 functional testing, and maintenance of fire protection systems.
                 We have been providing our services to commercial, industrial,
-                government, and mercantile facilities since 2013. With time, we
+                government, and mercantile facilities since 2021. With time, we
                 have expanded our services by adding special hazards, fire alarm
                 and detection systems. The evolution of fire fighting equipment
                 in Pakistan continues, and we have added access control systems,
@@ -220,11 +224,11 @@ const Home = () => {
                 key={index}
                 className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 px-4 mb-8"
               >
-                <Link to='/product'>
-                  <div className="item">
+                <Link to="/product">
+                  <div className="item    h-[60vh]">
                     <img
                       src={product.image}
-                      className="w-full h-auto"
+                      className="w-full h-full"
                       alt={product.name}
                     />
                     <h4 className="text-lg font-medium mt-2 text-center">
@@ -242,7 +246,7 @@ const Home = () => {
               type="button"
               className="rounded-full w-[15vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-2.5 text-center text-lg font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
             >
-                See More Products
+              See More Products
               <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
             </Link>
           </div>
@@ -364,9 +368,8 @@ const Home = () => {
       <MultiCarousel className="pb-5" />
 
       {/* ===============================part 7  ===================================== */}
-     
-               <Number/>
 
+      <Number />
     </Layout>
   );
 };
