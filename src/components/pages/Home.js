@@ -244,10 +244,11 @@ const Home = () => {
             <Link
               to="/product"
               type="button"
-              className="rounded-full w-[15vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-2.5 text-center text-lg font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+              className="    rounded-3xl  w-[60vw]  md:w-[15vw]  mx-auto   my-[3rem] flex justify-between border
+               border-[#dc1b24] bg-[#dc1b24]    px-5 py-2.5 text-center text-lg font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
             >
               See More Products
-              <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
+              <MdKeyboardDoubleArrowRight className="mt-1    ml-0  md:ml-2 text-[1.5rem]" />
             </Link>
           </div>
         </div>

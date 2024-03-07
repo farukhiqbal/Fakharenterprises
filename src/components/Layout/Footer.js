@@ -66,7 +66,7 @@ const Footer = () => {
                     <MdEmail className="mt-[.2rem]  mr-2 " />
                     E-Mail:
                     <Link to="mailto:sales@capitalsolutions.pk">
-                      farukhenterprisespk@gmail.com
+                    Fakharenterprises@gmail.com
                     </Link>
                   </li>
                 </ul>

@@ -34,7 +34,7 @@ const Products = () => {
   );
 
   return (
-    <Layout  title={'products'}>
+    <Layout title={"products"}>
       <div className="relative md:flex md:items-center  ">
         <div className="ProductTopDiv mt-5   w-[80vw] mx-auto   h-[20rem] absolute md:p-10">
           <h1 className="heading text-3xl text-center md:ml-[5rem] font-bold  mx-auto md:text-left lg:text-left md:text-7xl text-white mb-4 md:mb-10">
@@ -54,8 +54,8 @@ const Products = () => {
       {/* Search input */}
       <div className="container mx-auto mt-[9rem]  w-[80vw]">
         <div className=" w-[80vw] text-center mx-auto  mb-[3rem] py-5 flex  flex-col   md:flex-row lg:flex-row items-center">
-          <h2 className=" font-bold w-[40vw]  text-left text-[2rem]">
-            Find Products{" "}
+          <h2 className=" font-bold  text-center  w-full  md:w-[40vw]  md:text-left text-[2rem]">
+            Find Products
           </h2>
           <div className="   w-full  mt-2 md:mt-0 lg:mt-0  md:w-[40vw]  lg:w-[40vw] flex">
             <input
@@ -72,15 +72,16 @@ const Products = () => {
         </div>
 
         {/* Display filtered products */}
-        <h2 className="text-3xl font-[700] justify-between flex gap-3 mb-8">
-          <p className="text-red-600 flex ">All 
-           <p className="text-black ml-2">Products
-            </p>
+        <h2 className="     text-2xl     md:text-3xl font-[700] justify-between flex gap-3 mb-8">
+          <p className="text-red-600 flex   flex-row">
+            All
+            <p className="text-black ml-2">Products</p>
           </p>
 
-  <span className="text-gray-500"> Total{`(${filteredProducts.length} products)`}</span>
-
-
+          <span className="text-gray-500">
+            {" "}
+            Total{`(${filteredProducts.length} products)`}
+          </span>
         </h2>
         {filteredProducts.length === 0 ? (
           <p className="text-center font-bold text-2xl mt-[3rem]">

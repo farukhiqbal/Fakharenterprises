@@ -67,7 +67,7 @@ const Contactus = () => {
                     <MdEmail className="mt-[.2rem]  mr-2  text-[#dc1b24]" />
 
                     <a href="mailto:sales@capitalsolutions.pk">
-                      farukhenterprisespk@gmail.com
+                    Fakharenterprises@gmail.com
                     </a>
                   </li>
                   <li className="address   flex">
