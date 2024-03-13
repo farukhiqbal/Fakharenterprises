@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import Number from "./Number";
+import { Link } from "react-router-dom";
 
 const Contactus = () => {
   return (
@@ -56,19 +57,23 @@ const Contactus = () => {
                   <li className="phone flex   py-2 ">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2 text-[#dc1b24]" />
 
-                    <a href="tel:+92-51-4446640">+92 304-7083322</a>
+                    <Link to="tel:+92-51-4446640">+92 304-7083322</Link>
                   </li>
                   <li className="phone flex   py-2">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2  text-[#dc1b24]" />
-
-                    <a href="tel:+92-51-8312551">+92 304-7083322</a>
+                      PTCL:
+                    <Link to="tel:0515750946">0515750946</Link>
                   </li>
+
+
+
                   <li className="email  flex  py-2">
                     <MdEmail className="mt-[.2rem]  mr-2  text-[#dc1b24]" />
 
-                    <a href="mailto:sales@capitalsolutions.pk">
-                    Fakharenterprises@gmail.com
-                    </a>
+                    <Link to="mailto:sales@capitalsolutions.pk">
+                    fakharenterprisespk@gmail.com
+
+                    </Link>
                   </li>
                   <li className="address   flex">
                     <FaLocationDot className="mt-[.2rem]  mr-2   text-[#dc1b24]" />

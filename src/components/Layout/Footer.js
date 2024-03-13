@@ -60,15 +60,21 @@ const Footer = () => {
                     <FaPhoneAlt className="mt-[.2rem]  mr-2 " />
                     Phone: <Link to="tel:+92-51-4446640">+92 304 7083322</Link>
                   </li>
-
-                  {/* <li className="fax">Fax: +92-51-4446641</li> */}
+                  <li className="phone font-bold flex  py-2">
+                    <FaPhoneAlt className="mt-[.2rem]  mr-2 " />
+                    PTCL: <Link to="tel:+92-51-4446640">0515750946</Link>
+                  </li>
                   <li className="email   font-bold flex  py-2">
                     <MdEmail className="mt-[.2rem]  mr-2 " />
                     E-Mail:
                     <Link to="mailto:sales@capitalsolutions.pk">
-                    Fakharenterprises@gmail.com
+                    fakharenterprisespk@gmail.com
                     </Link>
                   </li>
+
+
+
+
                 </ul>
                 <ul className="myFooterSocialIcons gap-4  flex  mt-5 social-network">
                     <li className="icoFacebook  rounded-[40px] hover:bg-blue-600 hover:text-white h-[2.5rem] border-2 border-black w-[2.5rem]">
@@ -101,7 +107,7 @@ const Footer = () => {
             <marquee>
               {/* <FaHeart /> */}
               All Rights Reserved. © 2024
-              <b className="ml-1">FakharEnterprises.com.pk</b> &nbsp;
+              <b className="ml-1">FakharEnterprises.com</b> &nbsp;
               {/* <FaHeart /> */}
               &nbsp; Developed By : <strong>medcloud.com.pk</strong>
             </marquee>
