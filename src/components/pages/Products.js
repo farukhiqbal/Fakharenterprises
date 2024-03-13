@@ -5,6 +5,7 @@ import { IoSearch } from "react-icons/io5";
 import ProductItem from "./ProductItems";
 import { Link } from "react-router-dom";
 import product from "../../images/product.jpg";
+import shop from '../../images/shopimage.png'
 
 const Products = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -43,7 +44,7 @@ const Products = () => {
           <p className="   text-white text-lg  ml-3    md:ml-0 lg:ml-0  md:text-3xl font-normal"></p>
         </div>
         <img
-          src="https://asfiresafety.com.pk/wp-content/uploads/2023/09/fire-safety.jpg"
+          src={shop}
           alt=""
           className="w-full    h-[30vh]   md:w-full   md:h-[50vh] "
         />

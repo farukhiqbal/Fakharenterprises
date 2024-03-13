@@ -21,6 +21,7 @@ import product1 from "../../images/product1.jpeg";
 import product2 from "../../images/product2.jpeg";
 import product3 from "../../images/product3.jpeg";
 import product4 from "../../images/product4.jpeg";
+import bgimage from '../../images/bgimage.webp'
 
 const Home = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -121,7 +122,7 @@ const Home = () => {
         className="relative"
         style={{
           height: "90vh",
-          backgroundImage: `url('https://asfiresafety.com.pk/wp-content/uploads/2023/09/Fines-for-Fire-Safety-Can-Increase-Significantly1.jpg')`,
+          backgroundImage: `url(${bgimage})`,
           backgroundSize: "cover",
           backgroundPosition: "top center",
           // backgroundAttachment: "fixed",
