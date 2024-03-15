@@ -54,7 +54,7 @@ const Footer = () => {
                 <ul className="contact">
                   <li className="address flex   my-2">
                     <FaLocationDot className="mt-[.2rem]  mr-2 " />
-                    gawalmandi Rawalpindi, Punjab, Pakistan-56000
+                    Darya Abad Daryabad Gawal Mandi, Rawalpindi, Punjab 46000
                   </li>
                   <li className="phone font-bold flex  py-2">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2 " />
@@ -62,7 +62,7 @@ const Footer = () => {
                   </li>
                   <li className="phone font-bold flex  py-2">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2 " />
-                    PTCL: <Link to="tel:+92-51-4446640">0515750946</Link>
+                    PTCL: <Link to="tel:+92-51-4446640">+92 0515750946</Link>
                   </li>
                   <li className="email   font-bold flex  py-2">
                     <MdEmail className="mt-[.2rem]  mr-2 " />

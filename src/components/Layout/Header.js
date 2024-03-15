@@ -138,7 +138,7 @@ const Header = () => {
             </div>
             <div className="flex  items-center">
               <Link to="/" onClick={handleLinkClick}>
-                <img className="h-[55px]  w-[24.5rem]" src={logo} alt="" />
+                <img className="h-[55px]   w-[20rem]  md:w-[24.5rem]" src={logo} alt="" />
               </Link>
             </div>
           </div>

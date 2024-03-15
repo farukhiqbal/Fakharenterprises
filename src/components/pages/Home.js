@@ -21,7 +21,8 @@ import product1 from "../../images/product1.jpeg";
 import product2 from "../../images/product2.jpeg";
 import product3 from "../../images/product3.jpeg";
 import product4 from "../../images/product4.jpeg";
-import bgimage from '../../images/bgimage.webp'
+import bgimage from "../../images/bgimage.webp";
+import Home_banner from "../../images/home-products-banner.png";
 
 const Home = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -223,7 +224,7 @@ const Home = () => {
             {products.map((product, index) => (
               <div
                 key={index}
-                className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 px-4 mb-8"
+                className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 px-4 mb-8  pb-5"
               >
                 <Link to="/product">
                   <div className="item    h-[60vh]">
@@ -232,7 +233,7 @@ const Home = () => {
                       className="w-full h-full"
                       alt={product.name}
                     />
-                    <h4 className="text-lg font-medium mt-2 text-center">
+                    <h4 className="text-lg font-medium mt-2 text-center pb-5">
                       {product.name}
                     </h4>
                   </div>
@@ -245,11 +246,11 @@ const Home = () => {
             <Link
               to="/product"
               type="button"
-              className="    rounded-3xl  w-[60vw]  md:w-[15vw]  mx-auto   my-[3rem] flex justify-between border
+              className="    rounded-3xl  w-[45vw]  md:w-[15vw]  mx-auto   my-[3rem] flex  border
                border-[#dc1b24] bg-[#dc1b24]    px-5 py-2.5 text-center text-lg font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
             >
               See More Products
-              <MdKeyboardDoubleArrowRight className="mt-1    ml-0  md:ml-2 text-[1.5rem]" />
+              <MdKeyboardDoubleArrowRight className="mt-1    ml-1  md:ml-2 text-[1.5rem]" />
             </Link>
           </div>
         </div>
@@ -260,8 +261,7 @@ const Home = () => {
       <div
         className="h-[60vh]"
         style={{
-          backgroundImage:
-            "url('https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/home-products-intro-bg.png')",
+          backgroundImage: `url(${Home_banner})`,
           backgroundSize: "cover",
           backgroundPosition: "50% 50%",
           backgroundPosition: "right center",
@@ -343,7 +343,7 @@ const Home = () => {
           <Link
             to="/services"
             type="button"
-            className="rounded-full w-[10vw]  mx-auto   my-[3rem] flex justify-between border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-lg font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+            className="rounded-full w-[30vw] md:w-[10vw] mx-auto   my-[3rem] flex border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-lg font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
           >
             see more
             <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
@@ -358,16 +358,16 @@ const Home = () => {
           <h2 className="text-center text-4xl mb-5   font-bold  py-5">
             <span className="text-red-600">Our</span> Clients
           </h2>
-          <p className="text-center   text-xl   py-2">
+          <p className="text-center      text-lg  md:text-xl   py-2">
             We work with different businesses in the safety equipment industry
-            and nurture these relationships to make it easier for our clients to{" "}
+            and nurture these relationships to make it easier for our clients to
             <br />
             receive the highest possible quality of services and products.
           </p>
         </div>
       </div>
 
-      <MultiCarousel className="pb-5" />
+      <MultiCarousel className="py-[4rem]  " />
 
       {/* ===============================part 7  ===================================== */}
 

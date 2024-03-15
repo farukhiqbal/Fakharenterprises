@@ -61,8 +61,8 @@ const Contactus = () => {
                   </li>
                   <li className="phone flex   py-2">
                     <FaPhoneAlt className="mt-[.2rem]  mr-2  text-[#dc1b24]" />
-                      PTCL:
-                    <Link to="tel:0515750946">0515750946</Link>
+                    
+                    <Link to="tel:0515750946">+92 0515750946</Link>
                   </li>
 
 
