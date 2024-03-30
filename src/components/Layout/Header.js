@@ -89,7 +89,7 @@ const Header = () => {
             to="#"
             className="section-area block md:inline lg:inline    py-2 text-lg ml-[8rem]  "
           >
-            Gawalmandi Rawalpindi, Punjab, Pakistan-56000
+            Gawalmandi Rawalpindi, Punjab, Pakistan-46000
           </Link>
         </div>
 
