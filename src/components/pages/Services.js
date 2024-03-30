@@ -1,33 +1,33 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import service from '../../images/serivces.jpg'
+import service1 from '../../images/service-1.png'
+import service2 from '../../images/service-2.png'
+import service3 from '../../images/service-3.png'
+import service4 from '../../images/service-4.png'
 
 const Services = () => {
   // Sample service data
   const services = [
     {
       title: "Fire Extinguishers",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-1.png",
-      link: "https://www.capitalsolutions.pk/fire-extinguishers",
+      image:service1,
+     
     },
     {
       title: "Fire Suppression System",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-2.png",
-      link: "https://www.capitalsolutions.pk/fire-suppression-system",
+      image:service2,
+    
     },
     {
       title: "Fire Fighting System",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-3.png",
-      link: "https://www.capitalsolutions.pk/fire-fighting-system",
+      image: service3,
+    
     },
     {
       title: "Fire Alarm System",
-      image:
-        "https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/service-4.png",
-      link: "https://www.capitalsolutions.pk/fire-alarm-system",
+      image:service4,
+     
     },
   ];
   return (

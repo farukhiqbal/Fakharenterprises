@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import { MdEmail } from "react-icons/md";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-
+import banner from '../../images/safety-banner-contactus.png'
 import {
   FaFacebookF,
   FaInstagram,
@@ -24,7 +24,7 @@ const Contactus = () => {
           //   backgroundColor: "#1d1d1d", // Corrected typo in backgroundColor
           backgroundPosition: "50% 50%",
           backgroundImage:
-            'url("https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/safety-banner.png")',
+            `url(${banner})`,
         }}
       >
         <div className="container  w-[80vw]  mx-auto">

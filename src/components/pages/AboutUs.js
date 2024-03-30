@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import aboutus from "../../images/contact.jpg";
 import Number from "./Number";
+import serviceimage from '../../images/service-1.png'
+
 
 const AboutUs = () => {
   return (
@@ -108,10 +110,10 @@ const AboutUs = () => {
             </div>
             <div
               className=" hidden md:block lg:block  mt-[-100px]"
-              style={{ boxShadow: "0 1px 4px 0 rgb(0 0 0 / 21%)" }}
+              // style={{ boxShadow: "0 1px 4px 0 rgb(0 0 0 / 21%)" }}
             >
               <img
-                src="https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/what-we-do.png"
+                src={serviceimage}
                 className="h-full w-full"
                 alt="what-we-do"
               />
@@ -127,10 +129,10 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div
               className="hidden md:block lg:block mt-[4.3rem]"
-              style={{ boxShadow: "0 1px 4px 0 rgb(0 0 0 / 21%)" }}
+              // style={{ boxShadow: "0 1px 4px 0 rgb(0 0 0 / 21%)" }}
             >
               <img
-                src="https://www.capitalsolutions.pk/wp-content/themes/capital-solutions/img/safety/what-we-do.png"
+                src={serviceimage}
                 className="h-full w-full"
                 alt="what-we-do"
               />

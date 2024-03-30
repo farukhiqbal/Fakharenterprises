@@ -78,44 +78,6 @@ const Home = () => {
     },
   ];
 
-  const imageData = [
-    {
-      id: 1,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/4.png`,
-    },
-    {
-      id: 2,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/5.png`,
-    },
-    {
-      id: 3,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/6.png`,
-    },
-    {
-      id: 4,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/7.png`,
-    },
-    {
-      id: 5,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/8.png`,
-    },
-    {
-      id: 6,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/9.png`,
-    },
-    {
-      id: 7,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/1.png`,
-    },
-    {
-      id: 8,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/2.png`,
-    },
-    {
-      id: 9,
-      img: `https://alphaenterprises.com.pk/assets/img/clients/3.png`,
-    },
-  ];
 
   return (
     <Layout title={"fakharinterprises"}>
