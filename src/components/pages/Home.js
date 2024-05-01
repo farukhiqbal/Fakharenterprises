@@ -208,11 +208,13 @@ const Home = () => {
             <Link
               to="/product"
               type="button"
-              className="    rounded-3xl  w-[45vw]  md:w-[15vw]  mx-auto   my-[3rem] flex  border
-               border-[#dc1b24] bg-[#dc1b24]    px-5 py-2.5 text-center text-lg font-medium text-white shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+              className="    rounded-3xl  w-[60vw]    sm:w-[45vw]  md:w-[15vw]  mx-auto   my-[3rem] flex  border
+               border-[#dc1b24] bg-[#dc1b24]    px-6  sm:px-5  md:px-5 py-2.5 text-center    text-lg  lg:text-lg font-medium text-white 
+               shadow-md transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black 
+               disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
             >
               See More Products
-              <MdKeyboardDoubleArrowRight className="mt-1    ml-1  md:ml-2 text-[1.5rem]" />
+              <MdKeyboardDoubleArrowRight className="mt-1  ml-0  sm:ml-1  md:ml-2 text-[1.5rem]" />
             </Link>
           </div>
         </div>
@@ -238,7 +240,7 @@ const Home = () => {
 
             <div className="item lg:w-1/2 ">
               <div className="content  px-[2rem]  md:px-2  ">
-                <h2 className="mt-8        lg:mt-[4.5rem] text-3xl lg:text-5xl font-semibold">
+                <h2 className="   mt-0 mb-2   md:mt-8        lg:mt-[4.5rem] text-3xl lg:text-5xl font-semibold">
                   SAFETY PRODUCTS
                 </h2>
                 <p className="py-4 text-base lg:text-lg">
@@ -305,7 +307,7 @@ const Home = () => {
           <Link
             to="/services"
             type="button"
-            className="rounded-full w-[30vw] md:w-[10vw] mx-auto   my-[3rem] flex border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-lg font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
+            className="rounded-full    w-[40vw]  sm:w-[20vw] md:w-[10vw] mx-auto   my-[3rem] flex border border-[#dc1b24] bg-[#dc1b24] px-5 py-3 text-center text-lg font-medium text-white shadow-xl transition-all hover:border-[black] hover:bg-[black] focus:ring focus:ring-black disabled:cursor-not-allowed disabled:border-black disabled:bg-black"
           >
             see more
             <MdKeyboardDoubleArrowRight className="mt-1 ml-2 text-[1.5rem]" />
@@ -315,7 +317,7 @@ const Home = () => {
 
       {/* =======================================part 6 ============================================================ */}
 
-      <div className="section safety-partners h-[30vh] bg-gray-100 mt-[3rem]  mx-auto">
+      <div className="section safety-partners   h-[50vh]  md:h-[30vh] bg-gray-100 mt-[3rem]  mx-auto">
         <div className="container  w-[80vw] mx-auto  ">
           <h2 className="text-center text-4xl mb-5   font-bold  py-5">
             <span className="text-red-600">Our</span> Clients
@@ -329,7 +331,11 @@ const Home = () => {
         </div>
       </div>
 
-      <MultiCarousel className="py-[4rem]  " />
+
+        <div className="bg-gray-100  py-[6rem]  sm:py-[4rem] ">
+
+      <MultiCarousel className="  py-[6rem]  sm:py-[4rem]  " />
+        </div>
 
       {/* ===============================part 7  ===================================== */}
 

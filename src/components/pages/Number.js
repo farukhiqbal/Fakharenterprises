@@ -30,7 +30,7 @@ const Number = () => {
                 </h3>
                 <a
                   href="tel:0304 7083322"
-                  className="     text-[40px]     md:text-[75px] lg:text-[75px]  leading-11"
+                  className="     text-[30px]  sm:text-[40px]     md:text-[75px] lg:text-[75px]  leading-11"
                 >
                   +92 304 7083322
                 </a>
