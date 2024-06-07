@@ -2,20 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-     <App />
-    </BrowserRouter>
-   
-  </React.StrictMode>
-);
+// Get the root element from the DOM
+const rootElement = document.getElementById('root');
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Check if the root element has child nodes
+if (rootElement.hasChildNodes()) {
+  // Use hydrate if child nodes exist (server-side rendering)
+  ReactDOM.hydrate(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    rootElement
+  );
+} else {
+  // Otherwise, use render
+  ReactDOM.createRoot(rootElement).render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+}
