@@ -110,6 +110,7 @@ const Footer = () => {
               <b className="ml-1">FakharEnterprises.com</b> &nbsp;
               {/* <FaHeart /> */}
               &nbsp; Developed By : <strong>medcloud.com.pk</strong>
+              &nbsp; Contact: <strong>+92323-6311542</strong>
             </marquee>
           </div>
         </div>
