@@ -51,7 +51,7 @@ const Header = () => {
   const navLinks = [
     {
       text: "HOME",
-      url: "/home",
+      url: "/",
     },
     { text: "ABOUT US", url: "/aboutus" },
     // { text: "COMPLAINTS", url: "/complaints" },
