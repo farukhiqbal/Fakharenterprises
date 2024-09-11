@@ -51,29 +51,9 @@ const Header = () => {
   const navLinks = [
     {
       text: "HOME",
-      url: "/",
+      url: "/home",
     },
     { text: "ABOUT US", url: "/aboutus" },
-    // { text: "COMPLAINTS", url: "/complaints" },
-
-    // {
-    //   text: "PRODUCTS ",
-    //   submenu: true,
-    //   dropdown: [
-    //     { name: "HR and Payroll Management System ", link: "/hrpay" },
-    //     { name: "Manufacturing ERP Management system ", link: "/meritlist" },
-    //     {
-    //       name: "Account and Finance Management System",
-    //       link: "/feestructure",
-    //     },
-    //     { name: "Cash management system   ", link: "/admissionoffice" },
-    //     { name: "Inventory management system", link: "/testdate" },
-    //     { name: "Purchase management system ", link: "/ruleandpolicy" },
-    //     { name: "Account payable management system ", link: "/guide" },
-    //     { name: "Fix assert management system ", link: "/guide" },
-    //     { name: "Laboratory management system ", link: "/guide" },
-    //   ],
-    // },
 
     { text: "PRODUCTS", url: "/product" },
     { text: "SERVICES", url: "/services" },
@@ -138,7 +118,11 @@ const Header = () => {
             </div>
             <div className="flex  items-center">
               <Link to="/" onClick={handleLinkClick}>
-                <img className="h-[55px]   w-[15rem]   sm:w-[20rem]  md:w-[24.5rem]" src={logo} alt="" />
+                <img
+                  className="h-[55px]   w-[15rem]   sm:w-[20rem]  md:w-[24.5rem]"
+                  src={logo}
+                  alt=""
+                />
               </Link>
             </div>
           </div>
